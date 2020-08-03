@@ -1,0 +1,107 @@
+h1{
+	color:green;
+	text-decoration: underline;
+}
+
+p{
+  color:magenta;
+  font-size:22px;
+}
+
+.jess{
+	font-size:30px;
+	border-radius:50%;
+	width:250px;
+	height:250px;
+	object-fit:cover;
+margin-bottom:50px;
+position: relative;
+  animation: mymove 10s infinite;
+}
+
+@keyframes mymove {
+  from {left: -200px;}
+  to {left: 200px;}
+}
+
+html body{
+  text-align:center;
+}
+
+.sg{
+  color:red;
+}
+
+.ft{
+  font-size:20px;
+	color:#478;
+}
+
+.email{
+  border:0;
+  padding:20px;
+   font-size:20px;
+  background:blue;
+  color:yellow;
+}
+
+.submit{
+  border:0;
+  padding:10px;
+  margin:10px;
+   font-size:20px;
+  background:red;
+  color:yellow;
+}
+
+.green p{
+  background-color:green;
+  margin:10px;
+  color:yellow;
+}
+
+.yellow p{
+   background-color:yellow;
+   margin:10px;
+  color:blue;
+}
+
+.pink p{
+   background-color:pink;
+   margin:10px;
+   color:green;
+}
+
+.btn btn-primary{
+	border:0;
+  padding:10px;
+  margin:10px;
+   font-size:20px;
+}
+
+.ig{
+	background-color: lightcoral;
+	color:blue;
+}
+
+.ig:hover{
+background-color: whitesmoke;
+}
+
+#date{
+	background-color: rgb(141, 246, 246);
+	margin: 20px;
+	font-size: 14px;
+	font-style:italic;
+}
+
+#cookies{
+	font-size: 12px;
+	font-style:oblique;
+}
+
+.inline-block {
+    display: inline-block;
+    }
+
+		
