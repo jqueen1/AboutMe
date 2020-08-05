@@ -1,11 +1,17 @@
 h1{
-	color:green;
+color:rgb(197, 34, 88);
 	text-decoration: underline;
 }
 
+h3{
+color:rgb(218, 42, 100);
+font-family: 'Sacramento', cursive;
+}
+
 p{
-  color:magenta;
-  font-size:22px;
+  color:rgb(156, 33, 74);
+  font-size:35px;
+	font-family: 'Sacramento', cursive;
 }
 
 .jess{
@@ -28,13 +34,15 @@ html body{
   text-align:center;
 }
 
-.sg{
-  color:red;
+.what{
+	text-decoration: underline;
 }
 
+
 .ft{
-  font-size:20px;
+  font-size:25px;
 	color:#478;
+	font-family: 'Sacramento', cursive;
 }
 
 .email{
@@ -80,8 +88,8 @@ html body{
 }
 
 .ig{
-	background-color: lightcoral;
-	color:blue;
+	background-color: whitesmoke;
+	color:rgb(124, 206, 209);
 }
 
 .ig:hover{
@@ -92,16 +100,22 @@ background-color: whitesmoke;
 	background-color: rgb(141, 246, 246);
 	margin: 20px;
 	font-size: 14px;
-	font-style:italic;
+	font-style: oblique;
 }
 
 #cookies{
-	font-size: 12px;
-	font-style:oblique;
+	font-family: 'Sacramento', cursive;
 }
 
 .inline-block {
     display: inline-block;
     }
 
-		
+.subjects{
+	font-family: 'Sacramento', cursive;
+	font-size: 25px;
+}
+
+.shopping{
+	color: white;
+}
