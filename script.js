@@ -57,3 +57,28 @@ myh1.style.fontSize = (myh1.style.fontSize == "40px") ? "20px" : "40px"
 
 myh1.addEventListener("mouseover", changeSize);
 myh1.addEventListener("mouseleave", changeSize);
+
+setTimeout(function(){
+var popup =document.getElementById("popup")
+var overlay =document.getElementById("overlay")
+
+popup.style.visibility = "visible"
+overlay.style.visibility = "visible"
+
+
+},2000)
+
+
+var close =document.getElementById("close");
+close.onclick = function(){
+popup.style.visibility = "hidden"
+  overlay.style.visibility ="hidden"
+}
+
+var close =document.getElementById("subscribe");
+close.onclick =function(){
+popup.style.visibility = "hidden"
+  overlay.style.visibility ="hidden"
+	alert("You have been subscribed to my daily list.")
+}
+
