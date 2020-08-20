@@ -16,6 +16,15 @@ font-size:25px;
 font-family: 'Sacramento', cursive;
 }
 
+.intro{
+	background-color: rgb(236, 222, 225);
+	font-size: 20px;
+}
+
+.short{
+	font-family: 'Sacramento', cursive;
+}
+
 
 /* p{
 color:rgb(156, 33, 74);
