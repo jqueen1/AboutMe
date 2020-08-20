@@ -219,3 +219,17 @@ background-color:#d3c9ce;
 font-family: 'Poiret One', cursive;
 }
 
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
