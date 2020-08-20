@@ -17,11 +17,11 @@ font-family: 'Sacramento', cursive;
 }
 
 
-p{
-  color:rgb(156, 33, 74);
-  font-size:25px;
+/* p{
+color:rgb(156, 33, 74);
+font-size:25px;
 font-family: 'Raleway Dots', cursive;
-}
+} */
 
 
 #navbar1{
@@ -57,7 +57,7 @@ html body{
 }
 
 
-.freetime{
+p{
   font-size:25px;
 	color:rgb(156, 33, 74);
 	font-family: 'Poiret One', cursive;
