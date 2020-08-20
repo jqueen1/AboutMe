@@ -54,6 +54,9 @@ html body{
 
 .what{
 	text-decoration: underline;
+	font-size:25px;
+	color:rgb(156, 33, 74);
+	font-family: 'Poiret One', cursive;
 }
 
 
@@ -76,7 +79,7 @@ p{
 .socialmedialinks{
 color:rgb(156, 33, 74);
 font-size:15px;
-font-family: 'Raleway Dots', cursive;
+font-family: 'Poiret One', cursive;
 }
 
 .socialmedialinks:hover{
@@ -213,5 +216,6 @@ background-color:#d3c9ce;
 .footersocialmedialinks{
 	color:rgb(156, 33, 74);
   font-size:25px;
-font-family: 'Raleway Dots', cursive;
+font-family: 'Poiret One', cursive;
 }
+
