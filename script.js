@@ -72,13 +72,25 @@ overlay.style.visibility = "visible"
 var close =document.getElementById("close");
 close.onclick = function(){
 popup.style.visibility = "hidden"
-  overlay.style.visibility ="hidden"
+overlay.style.visibility ="hidden"
 }
 
 var close =document.getElementById("subscribe");
 close.onclick =function(){
 popup.style.visibility = "hidden"
-  overlay.style.visibility ="hidden"
-	alert("You have been subscribed to my daily list.")
+overlay.style.visibility ="hidden"
+alert("You have been subscribed to my daily list.")
 }
 
+function subscribe(){
+	
+ 
+
+	 
+
+
+
+ 
+
+
+}

@@ -1,0 +1,163 @@
+h2{
+	text-decoration: underline;
+	text-shadow: 2px 2px rgb(156, 33, 74);
+}
+
+
+body{
+	background-color:#e0d4bb;
+}
+
+h5{
+	color:black;
+	font-family: 'Poiret One', cursive;
+	font-size: 25px;
+	text-shadow: 1px 1px rgb(131, 89, 103);
+}
+
+h2{
+	color:rgb(156, 33, 74);
+	font-size:25px;
+	font-family: 'Arapey', serif;
+}
+
+body{
+	text-align: center;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  font-size:30px;
+	border-radius:80%;
+	width:250px;
+	height:250px;
+	object-fit:cover;
+	margin-bottom:50px;
+	margin-left:20px;
+	position: relative;
+}
+
+.fakeimg:hover{
+	border: 10px solid pink;
+}
+
+.birthdayparagraph{
+	height: ;
+ 	border: 1px solid pink;
+	background-color:#e4b0c4;
+	/* transform:rotate(-5deg); */
+	/* writing-mode: vertical-rl; */
+}
+
+.birthdayparagraph p{
+	color:black;
+}
+
+.card img{
+	mix-blend-mode: darken;
+}
+
+
+
+.fundayparagraph{
+ 	border: 1px solid pink;
+	background-color:#e2abc0;
+	transform: ;
+}
+
+.fundayparagraph p{
+color:black;
+}
+
+.favoriteoutfitsparagraph{
+ 	border: 1px solid pink;
+	background-color:#f1a1c0;
+	transform: ;
+}
+
+.favoriteoutfitsparagraph p{
+	color:black;
+}
+
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+.round{
+	width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:10px;
+  margin-right:10px;
+	padding-top:10px;
+  border-radius:100%;
+  background-color:#ea4c89;
+}
+
+
+
+.socialmediapages a.facebook:hover
+{
+  background-color:#3b5998;
+}
+		
+.socialmediapages a.twitter:hover
+{
+  background-color:#00aced;
+}
+.socialmediapages a.linkedin:hover
+{
+  background-color:#007bb6;
+}
+.socialmediapages a.instagram:hover
+{
+  background-color:#ea4c89;
+}
+@media (max-width:767px)
+{
+  .socialmediapages li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+
+
+

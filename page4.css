@@ -1,0 +1,56 @@
+
+	h3{
+color:red;
+font-family: 'cookie';
+font-size: 2.0rem;
+text-align: center;
+	}
+
+	h5{
+color:#a8adb4;
+text-decoration: underline;
+text-shadow: 0.5px 0.5px rgb(156, 33, 74);
+}
+
+#clothing{
+	background-color:#d3c9ce;
+}
+
+
+.places{
+	font-size:30px;
+	width:250px;
+	height:250px;
+	margin-bottom:50px;
+	border-radius:30%;
+	padding:10px 10px;
+}
+
+.places:hover{
+	border: 9px solid rgb(211, 129, 143);
+}
+
+
+
+.card{
+	height:100%;
+	width:100%;
+	background-color: rgb(161, 133, 156)
+}
+
+/* .socialmedia{
+	height:50px;
+	width:100%;
+	background-color: rgb(146,40,127)
+} */
+
+.round{
+	width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:10px;
+  margin-right:10px;
+	padding-top:10px;
+  border-radius:100%;
+  background-color:#d3779a;
+}

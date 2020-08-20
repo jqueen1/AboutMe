@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width">
     <title>BLOG Page</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
- 
  <link href="bootstrap-grid.css" rel="stylesheet" type="text/css"/>
+ <link href="blog.css" rel="stylesheet" type="text/css" />
 
 
 
@@ -39,118 +39,6 @@
 
 
 <style>
-
-	body{
-		background-color:#e0d4bb;
-	}
-
-	h5{
-color:black;
-font-family: 'Poiret One', cursive;
-font-size: 25px;
-}
-
-h2{
-	color:rgb(156, 33, 74);
-font-size:25px;
-font-family: 'Arapey', serif;
-}
-
-text-align: center;
-}
-
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-.fakeimg {
-  background-color: #aaa;
-  font-size:30px;
-	border-radius:80%;
-	width:250px;
-	height:250px;
-	object-fit:cover;
-	margin-bottom:50px;
-	margin-left:20px;
-	position: relative;
-}
-
-.rightcolumn {
-  float: left;
-  width: 25%;
-  background-color: #f1f1f1;
-  padding-left: 20px;
-}
-
-.leftcolumn {   
-  float: left;
-  width: 75%;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
-    width: 100%;
-    padding: 0;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
-}
-
-
-
-.round{
-	width:40px;
-  height:40px;
-  line-height:40px;
-  margin-left:10px;
-  margin-right:10px;
-	padding-top:10px;
-  border-radius:100%;
-  background-color:#ea4c89;
-}
-
-
-
-.socialmediapages a.facebook:hover
-{
-  background-color:#3b5998;
-}
-		
-.socialmediapages a.twitter:hover
-{
-  background-color:#00aced;
-}
-.socialmediapages a.linkedin:hover
-{
-  background-color:#007bb6;
-}
-.socialmediapages a.instagram:hover
-{
-  background-color:#ea4c89;
-}
-@media (max-width:767px)
-{
-  .socialmediapages li.title
-  {
-    display:block;
-    margin-right:0;
-    font-weight:600
-  }
-}
-
 
 
 </style>
@@ -187,6 +75,10 @@ text-align: center;
 
 			<li class="nav-item active">
         <a class="nav-link" id="navbar1" href="page4.html">Clothing<span class="sr-only">(current)</span></a>
+      </li>
+
+			<li class="nav-item active">
+        <a class="nav-link" id="navbar1" href="quiz.html">Extras<span class="sr-only">(current)</span></a>
       </li>
       
      
@@ -227,10 +119,12 @@ text-align: center;
 
 					</div>
       
-
+           <div class="birthdayparagraph">
       		<p>August 5th was one of my closest friends 17th Birthday. </p>
 						<p>We spent the night at a rooftop restaurant and ate some great Hispanic Food.</p>
 							<p>The images above are some we took that night.</p>
+           </div>
+
    			 </div>
 
 
@@ -256,10 +150,11 @@ text-align: center;
 
 					</div>
       
-
+						<div class="fundayparagraph">
       		<p>On this day, My friend,her little sister and I took a trip to brooklyn to go thrifting. </p>
 						
 						<p>we didnt really find any good items but it was a nice day outside and also the first time we had seen each other since March!</p>
+						</div>
    			 </div>
 
 
@@ -283,10 +178,12 @@ text-align: center;
 
 					</div>
       
-
+          <div class="favoriteoutfitsparagraph">
       		<p>These are some of the pictures in my camera roll which i like.</p>
 					<p>I dont really take pictures a lot because most of the time I have such a good time when i go out that I forget to capture memories</p>
 					<p>In the near future, I plan to take tons of photos to expand my social media following.</p>
+          </div>
+
    			 </div>
 
 
@@ -333,7 +230,7 @@ text-align: center;
       	<h3>Follow Me</h3>
       	<p>My social media pages</p>
 				<p class="socialmediapages">
-						<div class="row">
+					<div class="row">
 							<div class="col-md-3">
               <a class="facebook" target="_blank" href="https://www.facebook.com/j.queenxx/"><i
 							class="fa fa-facebook round"></i></a>

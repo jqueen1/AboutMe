@@ -1,0 +1,34 @@
+.submit{
+	display: flex;
+	background-color: pink;
+	border-radius: 15px;
+	font-size:20px;
+	float:center;
+}
+
+body{
+	background-color: rgb(180, 139, 170);
+}
+
+h1{
+	color:pink;
+
+}
+
+#question3{
+	border-radius:15px;
+}
+
+#question2{
+	border-radius:15px;
+}
+
+.backbutton{
+text-decoration:none;
+
+}
+
+#q1{
+	border:10px;
+}
+	

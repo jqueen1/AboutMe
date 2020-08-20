@@ -1,11 +1,12 @@
 h1{
 color:#a8adb4;
-	text-decoration: underline;
+text-decoration: underline;
+text-shadow: 2px 2px rgb(156, 33, 74);
 }
 
 h3{
 color:rgb(156, 33, 74);
-  font-size:15px;
+font-size:15px;
 font-family: 'Raleway Dots', cursive;
 }
 
@@ -33,9 +34,13 @@ color: rgb(156, 33, 74);
 	width:250px;
 	height:250px;
 	object-fit:cover;
-margin-bottom:50px;
-position: relative;
+	margin-bottom:50px;
+	position: relative;
   animation: mymove 10s infinite;
+}
+
+.jess:hover{
+	transform: rotateY(180deg);
 }
 
 @keyframes mymove {
@@ -54,7 +59,7 @@ html body{
 
 .freetime{
   font-size:25px;
-	 color:rgb(156, 33, 74);
+	color:rgb(156, 33, 74);
 	font-family: 'Poiret One', cursive;
 }
 
@@ -62,7 +67,7 @@ html body{
   border:0;
   padding:20px;
 	margin:20px;
-   font-size:20px;
+  font-size:20px;
   background-color: #b7a6ad;
   color:whitesmoke;
 }

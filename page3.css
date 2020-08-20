@@ -1,0 +1,55 @@
+#shopping{
+	background-color:#d3c9ce;
+}
+
+h3{
+color:rgb(156, 33, 74);
+  font-size:25px;
+font-family: 'Poiret One', cursive;
+text-align: center;
+}
+
+
+h4{
+color:rgb(156, 33, 74);
+font-size:25px;
+font-family: 'Raleway Dots', cursive;
+}
+
+.shakes{
+	font-size:30px;
+	width:250px;
+	height:250px;
+	margin-bottom:50px;
+border-radius:30%;
+padding:10px 10px;
+}
+
+.shakes:hover{
+	border: 9px solid rgb(211, 129, 143);
+}
+
+
+
+.card{
+	height:100%;
+	width:100%;
+	background-color: rgb(161, 133, 156)
+}
+
+/* .socialmedia{
+	height:50px;
+	width:100%;
+	background-color: rgb(146,40,127)
+} */
+
+.round{
+	width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:10px;
+  margin-right:10px;
+	padding-top:10px;
+  border-radius:100%;
+  background-color:#d3779a;
+}
